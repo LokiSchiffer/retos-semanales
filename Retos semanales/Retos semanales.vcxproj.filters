@@ -18,5 +18,8 @@
     <ClCompile Include="Challenge0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Challenge1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
