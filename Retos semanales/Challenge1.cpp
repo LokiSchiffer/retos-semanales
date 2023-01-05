@@ -23,15 +23,6 @@ using namespace std;
  *
  */
 
-string isAnagram (string fraseUno, string fraseDos);
-
-int main (){
-	cout << isAnagram("pepito", "Pipote") << endl;
-	cout << isAnagram("Maria", "Mariana") << endl;
-	cout << isAnagram("Enrique", "quieren") << endl;
-	cout << isAnagram("Mora", "Mora") << endl;
-}
-
 string isAnagram (string fraseUno, string fraseDos) {
 	if (fraseUno == fraseDos || fraseUno.length() != fraseDos.length()) return "falso";
 	std::transform(fraseUno.begin(), fraseUno.end(), fraseUno.begin(), ::tolower);

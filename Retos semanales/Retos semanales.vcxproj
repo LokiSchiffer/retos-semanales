@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Challenge0.cpp" />
     <ClCompile Include="Challenge1.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,7 +21,7 @@ using namespace std;
  *
  */
 
-int main (){
+void fizzBuzz(){
 
 	bool threeMultiple, fiveMultiple;
 	string message;
